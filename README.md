@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# detectdo
+It is an application that extracts suspicious vehicle, criminal, knife, guns, or other weapons that leads to criminal activities from live CCTV footage. It uses modern technologies like computer vision and face_recognition to extract details of suspicious entities. It also takes into account geocoding API in order to extract the live location of CCTV IP address, firebase, and cloud API's to upload and retrieve images related to suspicious activity snapshotted from live CCTV footage. Google Gmail API and Vonage API handle email and SMS services respectively.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Checkout the presentation video]
+## How to use
+### `Download the python code from` - [code@python] 
 
-## Available Scripts
+- Run app.py file
+-  Start capturing suspicious weapons, knives, vehicles numberplate and criminal faces from webcam
+-  Dataset used could be extracted from DATA folder present in [code@NodeJS]
+- Use images present in "imgs" folder for criminal detection
 
-In the project directory, you can run:
+### `Download the NodeJS code from` - [code@NodeJS] 
 
-### `npm start`
+- Run app.js file
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### `SMS and Email`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Check your email and SMS after suspicious activity detection
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+> The flowchart explaning the internal working
+> of project could be extracted from given [link]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Some of the snapshots explaining the working of the project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### CCTV footage and suspicious activity detection
+[![detectdoimg.png](https://i.postimg.cc/mgh8DfMs/detectdoimg.png)](https://postimg.cc/ZWtr7QV7)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Email received after detection
+[![uQ5h7D.png](https://i.im.ge/2022/06/20/uQ5h7D.png)](https://im.ge/i/uQ5h7D)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### SMS received after detection
+[![uQ5iA4.png](https://i.im.ge/2022/06/20/uQ5iA4.png)](https://im.ge/i/uQ5iA4)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Live portal [access it here]
+[![uQ50pC.png](https://i.im.ge/2022/06/20/uQ50pC.png)](https://im.ge/i/uQ50pC)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Free Software, Hell Yeah!**
 
-### Analyzing the Bundle Size
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   [code@python]: <https://drive.google.com/file/d/1DzzfRrm5k-3bW_xZyqpUHrAgvJCKjxsU/view?usp=sharing>
+   [code@NodeJS]: <https://github.com/joemccann/dillinger.git>
+   [link]: <https://drive.google.com/file/d/1aNL3XKVoCZE2uAWTImW_pcGVq71oRwqs/view?usp=sharing> 
+   [access it here]: <https://detectdoportal.herokuapp.com/>
+   [Checkout the presentation video]: <https://www.youtube.com/watch?v=nmEL3DnZZFw>
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
