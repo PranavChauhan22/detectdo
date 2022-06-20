@@ -5,7 +5,7 @@ It is an application that extracts suspicious vehicle, criminal, knife, guns, or
 ## How to use
 ### `Download the python code from` - [code@python] 
 
-- Run app.py file
+- Run main.py file
 -  Start capturing suspicious weapons, knives, vehicles numberplate and criminal faces from webcam
 -  Dataset used could be extracted from DATA folder present in [code@NodeJS]
 - Use images present in "imgs" folder for criminal detection
