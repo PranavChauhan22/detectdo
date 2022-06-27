@@ -17,7 +17,7 @@ export default function Stats() {
   const [crime, setcrime] = useState([]);
   const [data, setdata] = useState({})
   async function getData(){
-    const response = await fetch('https://detectdo.herokuapp.com/', {
+    const response = await fetch('http://localhost:5000/', {
       method: "GET",
       mode: "cors",
       cache: "no-cache",
